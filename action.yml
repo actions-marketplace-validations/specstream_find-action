@@ -1,8 +1,5 @@
 name: SpecStream Find
-description: >
-  Describe a list in plain words, check the price against a maximum you set, run it,
-  and upload the results as a CSV. Nothing runs without confirm_max_usd.
-author: SpecStream
+description: Run a SpecStream request in a workflow, check the price against your maximum and upload the results as a CSV.
 inputs:
   request:
     description: What you need, in your own words
